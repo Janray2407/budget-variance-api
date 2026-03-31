@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const uri = "YOUR_MONGODB_CONNECTION_STRING";
+const uri = "mongodb+srv://budgetUser:<db_password>@cluster0.f7thx.mongodb.net/?appName=Cluster0";
 
 const client = new MongoClient(uri);
 
